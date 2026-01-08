@@ -25,7 +25,7 @@ import { ref } from "vue";
 
 const items = ref([
     {
-        label: 'Acceuil',
+        label: 'Accueil',
         icon: 'pi pi-home',
         route:'/'
     },
@@ -40,7 +40,7 @@ const items = ref([
         route:'/joueurs'
     },
     {
-        label: 'Contact',
+        label: 'Informations pratiques',
         icon: 'pi pi-info-circle',
         route:'/infos'
     }
