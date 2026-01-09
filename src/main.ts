@@ -8,13 +8,13 @@ import 'primeicons/primeicons.css';
 
 import { createMemoryHistory, createRouter } from 'vue-router';
 
-import Acceuil from './components/Acceuil.vue';
+import Accueil from './components/Accueil.vue';
 import Equipes from './components/Equipes.vue';
 import Joueurs from './components/Joueurs.vue';
 import InfosPratiques from './components/InfosPratiques.vue';
 
 const routes = [
-  { path: '/', component: Acceuil },
+  { path: '/', component: Accueil },
   { path: '/equipes', component: Equipes },
   { path: '/joueurs', component: Joueurs },
   { path: '/infos', component: InfosPratiques },
