@@ -1,4 +1,3 @@
-
 <template>
     <Card>
         <template #title>Infos Pratiques</template>
@@ -10,3 +9,10 @@
 
 <script setup>
 </script>
+
+<style>
+img {
+    max-width: 100%;
+    height: auto;
+}
+</style>
