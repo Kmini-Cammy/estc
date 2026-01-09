@@ -5,28 +5,28 @@
         <template #content>
           <Accordion value="0">
     <AccordionPanel value="0">
-        <AccordionHeader>Header I</AccordionHeader>
+        <AccordionHeader>Les joueurs</AccordionHeader>
         <AccordionContent>
-            <p class="m-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+           <small>powered by <a target="_blank" href="https://www.pingpocket.fr/" >www.pingpocket.fr</a></small>
+            <iframe frameborder="1" name="pingpocket" width="100%" height="800" scrolling="auto" src="https://www.pingpocket.fr/app/fftt/clubs/06880145/licencies?SORT=OFFICIAL_RANK" ><p>iframe non supportée</p></iframe>
         </AccordionContent>
     </AccordionPanel>
     <AccordionPanel value="1">
-        <AccordionHeader>Header II</AccordionHeader>
+        <AccordionHeader>Les progressions mensuelles</AccordionHeader>
         <AccordionContent>
-            <p class="m-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Consectetur, adipisci velit, sed quia non numquam eius modi.
-            </p>
+             <small>powered by <a target="_blank" href="https://www.pingpocket.fr/" >www.pingpocket.fr</a></small>
+            <iframe frameborder="1" name="pingpocket" width="100%" height="800" scrolling="auto" src="https://www.pingpocket.fr/app/fftt/clubs/06880145/licencies?SORT=MONTHLY_INCREASE" ><p>iframe non supportée</p></iframe>
         </AccordionContent>
     </AccordionPanel>
     <AccordionPanel value="2">
+        <AccordionHeader>Les progressions annuelles</AccordionHeader>
+        <AccordionContent>
+            <small>powered by <a target="_blank" href="https://www.pingpocket.fr/" >www.pingpocket.fr</a></small>
+            <iframe frameborder="1" name="pingpocket" width="100%" height="800" scrolling="auto" src="https://www.pingpocket.fr/app/fftt/clubs/06880145/licencies?SORT=SEASON_INCREASE" ><p>iframe non supportée</p></iframe>
+        </AccordionContent>
+    </AccordionPanel>
     </AccordionPanel>
 </Accordion>
-
-Dynamic
         </template>
     </Card>
 </template>
