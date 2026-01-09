@@ -12,6 +12,11 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Acceuil: typeof import('./src/components/Acceuil.vue')['default']
+    Accordion: typeof import('primevue/accordion')['default']
+    AccordionContent: typeof import('primevue/accordioncontent')['default']
+    AccordionHeader: typeof import('primevue/accordionheader')['default']
+    AccordionPanel: typeof import('primevue/accordionpanel')['default']
+    Accueil: typeof import('./src/components/Accueil.vue')['default']
     Card: typeof import('primevue/card')['default']
     Equipes: typeof import('./src/components/Equipes.vue')['default']
     InfosPratiques: typeof import('./src/components/InfosPratiques.vue')['default']
